@@ -1,0 +1,54 @@
+.sideToolbar {
+    width: 50px !important;
+    height: 100vh;
+    background-color: #004579;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+    padding: 0 !important;
+    line-height: 0;
+    border: 0;
+}
+
+.icon:focus {
+    background-color: #004579;
+}
+
+.icon svg {
+    width: 30px;
+    height: 30px;
+}
+
+.logo svg {
+    width: 35px;
+    height: 35px;
+}
+
+.controlsIcon {
+    background-color: #004579;
+}
+
+.settingIcon {
+    background-color: #004579;
+}
+
+.settingIcon:hover {
+    background-color: #005589;
+}
+
+.bottomBtn {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.ant-tooltip-inner {
+    background-color: rgba(0, 33, 64, 0.9);
+}
+
+.ant-tooltip-arrow {
+    border-right-color: rgba(0, 33, 64, 0.9) !important;
+}

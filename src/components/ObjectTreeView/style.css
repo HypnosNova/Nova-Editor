@@ -1,0 +1,75 @@
+.tree {
+    width: 200px;
+    height: calc(100vh - 30px);
+    background-color: #005589;
+    user-select: none;
+}
+
+.treeCollapse {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.treeExpend {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.ant-layout-sider-collapsed {
+    flex: 0 0 50px !important;
+    max-width: 50px !important;
+    min-width: 50px !important;
+    width: 50px !important;
+}
+
+.ant-layout-sider-collapsed .ant-layout-sider-trigger {
+    width: 50px !important;
+}
+
+.ant-layout-sider-trigger {
+    bottom: 30px;
+}
+
+.ant-tree.ant-tree-show-line li span.ant-tree-switcher {
+    background-color: transparent;
+}
+
+.ant-tree.ant-tree-directory>li.ant-tree-treenode-selected>span.ant-tree-switcher,
+.ant-tree.ant-tree-directory .ant-tree-child-tree>li.ant-tree-treenode-selected>span.ant-tree-switcher {
+    color: #eeeeee;
+}
+
+.ant-tree.ant-tree-directory>li span.ant-tree-switcher,
+.ant-tree.ant-tree-directory .ant-tree-child-tree>li span.ant-tree-switcher {
+    display: none !important;
+}
+
+.ant-tree.ant-tree-directory>li span.ant-tree-node-content-wrapper>span,
+.ant-tree.ant-tree-directory .ant-tree-child-tree>li span.ant-tree-node-content-wrapper>span {
+    color: #cccccc;
+}
+
+.ant-tree.ant-tree-directory>li span.ant-tree-node-content-wrapper>span,
+.ant-tree.ant-tree-directory .ant-tree-child-tree>li span.ant-tree-node-content-wrapper>span {
+    color: #eeeeee;
+}
+
+.ant-tree.ant-tree-directory>li span.ant-tree-node-content-wrapper:hover:before,
+.ant-tree.ant-tree-directory .ant-tree-child-tree>li span.ant-tree-node-content-wrapper:hover:before {
+    background: rgba(180, 210, 255, 0.2);
+}
+
+.ant-tree li {
+    padding: 1px;
+}
+
+.ant-layout-sider-trigger {
+    height: 28px;
+    line-height: 28px;
+    background-color: #004579;
+    top: 0 !important;
+}
+
+.ant-layout-sider-trigger:hover {
+    background-color: #003557;
+}
